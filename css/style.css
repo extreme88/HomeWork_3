@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 0 11%;
+	background-color: #f9f9f9;
+	min-height: 100%;
+}
+
+/*                  PAGE                  */
+
+.page{
+	padding: 0 4%;
+	background-color: #ffffff;
+	box-shadow: 0 0 5px #dbdbdb;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+/*  --------------  HEADER  --------------  */
+
+#header{
+	padding: 5% 0 0;
+	font-size: 25px;
+}
+.menu{
+	margin: 4% 0;
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #464646;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li{
+	display: inline-block;
+	width: 12%;
+	border-left: 1px solid #464646;
+	border-right: 1px solid #464646;
+	text-align: center;
+}
+.menu ul li:hover{
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	background-color: #373737;
+}
+.menu li a{
+    display: block;	
+	color: white;
+	text-decoration: none;
+}
+
+
+/*  --------------  LAYOUT  --------------  */
+
+/*       SIDEBAR      */
+
+.sidebar{
+	float: left;
+	width: 24%;
+}
+.sidebar ul{
+	border: 1px solid #c8c8c8;
+}
+.sidebar li {
+	list-style-type: none;
+	border-bottom: 1px solid #c8c8c8;
+	line-height: 40px;
+	padding-left: 10%;
+}
+.sidebar li:last-child {
+	border-bottom: none;
+}
+.sidebar a{
+	display: block;
+	text-align: left;
+	color: #656565;
+	text-decoration: none;
+}
+.sidebar ul li:hover{
+	padding-left: 15%;
+	background-color: #f9f9f9;
+}
+.sidebar a:hover{
+	color: black;
+}
+
+/*       CONTENT       */
+
+.content{
+	overflow: hidden;
+	padding: 0 2px 0 5%;
+}
+.product img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #c8c8c8;
+}
+.description{
+		margin: 40px 30px 60px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #2c2c2c;
+}
+.content p{
+	padding: 0 4%;
+	color: #656565;
+}
+
+/*  --------------  FOOTER  --------------  */
+
+#footer{
+	padding-bottom: 6%;
+	text-align: center;
+	line-height: 40px;
+}
+#ft-line{
+	background: #e1e1e1;
+}
+.menu-sub ul{
+	list-style: none;
+}
+.menu-sub li{
+	float: left;           
+	position: relative;     
+	display: inline-block;
+	width: 13%;
+	text-align: center;
+}
+.menu-sub li a{
+    display: block;	
+	text-decoration: none;
+	color: #656565;
+}
+.menu-sub li a:hover{
+	text-decoration: underline;
+}
+div[id=ft-line] .rights{
+	float: right;
+	text-align: right;
+	padding-right: 3%;
+	color: #656565;
+}
+#ft-line:after{
+	display: table;
+	clear: both;
+	content: "";
+}
